@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.1'#, :path => "vendor/rails"
+gem 'rails', '3.2.6'#, :path => "vendor/rails"
 # gem 'assets', :path => "~/Sites/side_projects/assets"
 
 gem 'will_paginate'
