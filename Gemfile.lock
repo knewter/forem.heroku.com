@@ -7,16 +7,16 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem-theme-twist
-  revision: 9d0c482335449ac15563c16937d9a528c5807935
+  revision: 77e892616a9cc7ab918da9249516e07ad6988f9a
   specs:
     forem-theme-twist (0.0.1)
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: f44662c320f012a0756aeb8d813a1a792ac555ed
+  revision: 9b5a09cc16b4fe6f73080dcd64153461b8a32ad3
   specs:
     forem (1.0.0.beta1)
-      cancan
+      cancan (= 1.6.7)
       forem-redcarpet (= 1.0.0)
       rails (~> 3.1)
       simple_form
@@ -52,7 +52,7 @@ GEM
     activesupport (3.2.6)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    ansi (1.4.2)
+    ansi (1.4.3)
     arel (3.0.2)
     bcrypt-ruby (3.0.1)
     blankslate (2.1.2.4)
@@ -64,16 +64,16 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.2.0)
-    devise (2.0.4)
+    coffee-script-source (1.3.3)
+    devise (2.1.2)
       bcrypt-ruby (~> 3.0)
-      orm_adapter (~> 0.0.3)
+      orm_adapter (~> 0.1)
       railties (~> 3.1)
-      warden (~> 1.1.1)
+      warden (~> 1.2.1)
     dragonfly (0.9.5)
       rack
     erubis (2.7.0)
-    execjs (1.3.0)
+    execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.0.11)
     forem-redcarpet (1.0.0)
@@ -82,8 +82,8 @@ GEM
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.4)
-    jquery-rails (2.0.0)
-      railties (>= 3.2.0.beta, < 5.0)
+    jquery-rails (2.0.2)
+      railties (>= 3.2.0, < 5.0)
       thor (~> 0.14)
     json (1.7.3)
     mail (2.4.4)
@@ -92,8 +92,8 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.3.6)
-    orm_adapter (0.0.6)
-    pg (0.13.2)
+    orm_adapter (0.3.0)
+    pg (0.14.0)
     polyglot (0.3.3)
     pygments.rb (0.2.4)
       rubypython (~> 0.5.3)
@@ -124,12 +124,12 @@ GEM
     rdoc (3.12)
       json (~> 1.4)
     redcarpet (2.0.1)
-    ruby-prof (0.10.8)
+    ruby-prof (0.11.2)
     rubypython (0.5.3)
       blankslate (>= 2.1.2.3)
       ffi (~> 1.0.7)
-    sass (3.1.15)
-    sass-rails (3.2.4)
+    sass (3.1.19)
+    sass-rails (3.2.5)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
@@ -140,19 +140,18 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.5)
     thor (0.15.3)
     tilt (1.3.3)
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    turn (0.9.3)
+    turn (0.9.6)
       ansi
     tzinfo (0.3.33)
-    uglifier (1.2.3)
+    uglifier (1.2.6)
       execjs (>= 0.3.0)
-      multi_json (>= 1.0.2)
-    warden (1.1.1)
+      multi_json (~> 1.3)
+    warden (1.2.1)
       rack (>= 1.0)
     will_paginate (3.0.3)
     workflow (0.8.0)
@@ -161,7 +160,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cancan (= 1.6.7)
   coffee-rails (~> 3.2.0)
   devise
   dragonfly (= 0.9.5)
@@ -174,7 +172,6 @@ DEPENDENCIES
   rails (= 3.2.6)
   ruby-prof
   sass-rails (~> 3.2.0)
-  sqlite3
   turn
   uglifier
   will_paginate
