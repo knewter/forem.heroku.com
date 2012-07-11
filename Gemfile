@@ -5,6 +5,7 @@ gem 'unicorn'
 # gem 'assets', :path => "~/Sites/side_projects/assets"
 
 gem 'will_paginate'
+# gem 'kaminari'
 gem 'devise'
 if ENV['USE_LOCAL_FOREM']
   gem 'forem', :path => "~/Sites/side_projects/forem"
@@ -40,3 +41,4 @@ group :production do
 end
 
 gem 'json'
+gem 'airbrake'
