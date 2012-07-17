@@ -48,7 +48,7 @@ module Forums
     config.assets.initialize_on_precompile = false
 
     config.action_mailer.default_url_options = {
-      :host => "localhost"
+      :host => "forem.herokuapp.com"
     }
   end
 end
