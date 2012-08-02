@@ -15,7 +15,7 @@
     Signed in as <%= current_user.email %>
     <%= link_to "Sign out", '/users/sign_out' %>
   <% else %>
-    <%= link_to "Sign up", '/users/sign_up' %>
+    <%= link_to "Sign up", '/users/sign_up' %> &middot;
     <%= link_to "Sign in", '/users/sign_in' %>
   <% end %>
 
