@@ -26,18 +26,15 @@ end
 gem 'jquery-rails'
 gem 'dragonfly', '0.9.5'
 
+gem 'pg'
+
 group :development do
-  gem 'pg'
   gem 'ruby-prof'
 end
 
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-end
-
-group :production do
-  gem 'pg'
 end
 
 gem 'json'
